@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="120dip"
+    android:padding="5dip">
+
+
+    <ImageView
+        android:id="@+id/groupImage"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"></ImageView>
+
+
+    <TextView
+        android:id="@+id/nameGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_toEndOf="@+id/groupImage"
+        android:text="name Group"
+        android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+
+    <TextView
+        android:id="@+id/dateStartGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nameGroup"
+        android:layout_below="@+id/nameGroup"
+        android:text="Start Date"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#6b71f1"></TextView>
+
+    <TextView
+        android:id="@+id/dateEndGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/dateStartGroup"
+        android:layout_below="@+id/dateStartGroup"
+        android:text="End Date"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#6b71f1"></TextView>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/nameGroup" />
+
+</RelativeLayout>

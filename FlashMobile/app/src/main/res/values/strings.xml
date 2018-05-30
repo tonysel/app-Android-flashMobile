@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AndroidGridLayout</string>
+    <string name="Insert_Image">inserisci</string>
+    <string name="msg">1</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="tab_text_1">Past</string>
+    <string name="tab_text_2">Current</string>
+    <string name="tab_text_3">Future</string>
+    <string name="myTab_text_1">Available</string>
+    <string name="myTab_text_2">Not Available</string>
+    <string name="myTab_text_3">All</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+</resources>
